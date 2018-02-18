@@ -20,7 +20,6 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-  
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
@@ -33,11 +32,18 @@
     <!-- START OF CONTENT -->
 
     <div class="container-fluid center">
-        <div class="container text-muted">
+        <div class="container">
             <div id="quote"></div>
             <div id="author"></div>
-            <div class="btn-container">
-                <button onclick="changeColor()" id="colorButton" class="btn btn-primary">Get Random Quotation</button>
+            <div class="row">
+                <div class="centeredIcons" id="icons">
+                    <span onclick="newQuote()">
+                        <i class="fas fa-sync fa-spin fa-1x push-right" id="spinning"></i>
+                    </span>
+                    <span onclick="twitterFunction()">
+                        <i class="fab fa-twitter fa-1x"></i>
+                    </span>
+                </div>
             </div>
         </div>
     </div>

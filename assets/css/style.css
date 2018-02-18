@@ -15,10 +15,22 @@ body{
 
 #quote{
     font-family: 'Bellefair', serif;
-    margin-top: 35vh;
+    margin-top: 30vh;
     font-size: 48px;
 }
 
 .container{
-    max-width: 35%;
+    max-width: 45%;
+}
+
+.emptyspace{
+    width: 50px;
+}
+
+.centeredIcons{
+    margin: 0 auto;
+}
+
+.push-right{
+    margin-right: 50px;
 }

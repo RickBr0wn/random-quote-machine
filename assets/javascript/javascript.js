@@ -24,7 +24,7 @@ function newQuote(){
     $.getJSON(settings, function (response, success) {
         console.log(response);
         quoteText = response.quoteText;
-        if(quoteAuthor === ""){
+        if(quoteAuthor == " "){
             quoteAuthor = "- Unknown"
             console.log("Unknown!");
         }else{

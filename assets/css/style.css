@@ -1,7 +1,24 @@
 body{
     margin-top: 60px;
+    color: "#f4f4f4";
 }
 
 .center{
     text-align: center;
+}
+
+#author{
+    text-align: right;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#quote{
+    font-family: 'Bellefair', serif;
+    margin-top: 35vh;
+    font-size: 48px;
+}
+
+.container{
+    max-width: 35%;
 }
